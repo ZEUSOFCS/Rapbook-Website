@@ -370,7 +370,7 @@ li {
 }
 .card-holder {
 	display: grid;
-	grid-template-columns: 2fr 2fr;
+	grid-template-columns: 2fr 2fr 2fr 2fr;
 	grid-auto-rows: 220px; /* NOTE: hieght of card */
 	grid-gap: 2rem; /* NOTE: space b/t card */
 	padding-left: 2%;
@@ -464,10 +464,16 @@ footer {
 
 
 
-@media screen and ( min-width: 613px ) {
+@media screen and ( min-width: 320px ) {
 
-
-
+	.card-holder {
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-auto-rows: 220px; /* NOTE: hieght of card */
+		grid-gap: 2rem; /* NOTE: space b/t card */
+		padding-left: 2%;
+		padding-right: 2%;
+	}
 
 .google-cards{
 	width:600px;
@@ -528,6 +534,15 @@ footer {
 
 
 @media screen and ( min-width:768px){
+
+	.card-holder {
+		display: grid;
+		grid-template-columns: 2fr 2fr 2fr 2fr;
+		grid-auto-rows: 220px; /* NOTE: hieght of card */
+		grid-gap: 2rem; /* NOTE: space b/t card */
+		padding-left: 2%;
+		padding-right: 2%;
+	}
 
 .modal-window>div {
 	margin-top:32px;
