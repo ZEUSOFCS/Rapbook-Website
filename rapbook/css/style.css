@@ -398,10 +398,10 @@ li {
 }
 
 .company:nth-child(2) {
-	background-color:#4c90f5;
-	background-image:url("../images/google.png");
-	display:block;
-
+	background-image:url("../images/blue-girl.png");
+	background-size:224px;
+	background-size: cover; /* NOTE: image size */
+	display:grid;
 }
 
 .company:nth-child(3) {
