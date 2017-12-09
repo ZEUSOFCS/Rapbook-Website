@@ -386,6 +386,9 @@ li {
   transition: all 0.3s ease-out;
 }
 
+.company:hover {
+	box-shadow: 0 14px 26px rgba(0,0,0,0.90);
+}
 
 .company:nth-child(1) {
 	background-image:url("../images/rapbook.png"); /* NOTE: cover image */
@@ -674,24 +677,25 @@ footer {
 /*  card  touch  release effect */
 .company:nth-child(1){
 	transition: all 0.3s ease-out;
-	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	box-shadow: 0 14px 26px rgba(0,0,0,0.09);
 }
 
 /*  card  hover effect */
 .company:nth-child(1):hover {
  transform: translateY(-10px) scale(1.005) translateZ(0);
-  box-shadow: 0 24px 36px rgba(0, 0, 0, .1);
+ box-shadow: 0 14px 26px rgba(0,0,0,0.09);
 }
 
-
-a:nth-child(2) .company {
-	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+/*  card  touch  release effect */
+.company:nth-child(1){
+	transition: all 0.3s ease-out;
+	box-shadow: 0 14px 26px rgba(0,0,0,0.09);
 }
 
 .company:nth-child(2):hover {
 transition: all 0.3s ease-out;
- transform: translateY(-10px) scale(1.005) translateZ(0);
-  box-shadow: 0 24px 36px rgba(220, 233, 255, 1);
+transform: translateY(-10px) scale(1.005) translateZ(0);
+box-shadow: 0 14px 26px rgba(0,0,0,0.09);
 }
 
 .company:nth-child(3){
