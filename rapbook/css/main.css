@@ -1,8 +1,5 @@
 
-/* ++++++++++++++++++++++++++++++++++++++++ */
-/* +++++++++++++++ VEIW RESUME +++++++++++++++++ */
-/* ++++++++++++++++++++++++++++++++++++++++ */
-
+/************** BETA BUTTON ***************/
 #beta{
   position: absolute;
   margin-left: 90%;
@@ -52,6 +49,7 @@
   height: 60%;
   width: 20%;
   opacity: 0.4;
+  /* NOTE: replace with default icon */
   background-image: url("../img/beta-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
