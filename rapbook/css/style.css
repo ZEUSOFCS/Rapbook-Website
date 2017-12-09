@@ -412,7 +412,7 @@ li {
 }
 
 .company:nth-child(4) {
-	background-image:url("../images/microsoft.png");
+	background-image:url("../images/tovor.png");
 	background-size:224px;
 	background-size: cover; /* NOTE: image size */
 	display:grid;
