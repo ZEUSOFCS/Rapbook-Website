@@ -405,47 +405,30 @@ li {
 }
 
 .company:nth-child(3) {
-	background-color:#999999;
-	background-image:url("../images/apple.png");
+	background-image:url("../images/chance.png");
+	background-size:224px;
+	background-size: cover; /* NOTE: image size */
+	display:grid;
 }
 
 .company:nth-child(4) {
-	background-color:#03a4ef;
 	background-image:url("../images/microsoft.png");
+	background-size:224px;
+	background-size: cover; /* NOTE: image size */
+	display:grid;
 
 }
 
-/* NOTE: Working Progress */
 
-/*
 .company:nth-child(5) {
-	background-color:red;
 	background-image:url("../images/amazon.png");
-
+	background-size:224px;
+	background-size: cover; /* NOTE: image size */
+	display:grid;
 }
 
-.company:nth-child(6) {
-	background-color:#0077c5;
-	background-image:url("../images/intuit.png");
-	background-size:50%;
 
-}
-
-.company:nth-child(7) {
-	background-color:#0077b5;
-	background-image:url("../images/linkedin.png");
-
-}
-
-.company:nth-child(8) {
-	background-color:#ff0000;
-	background-image:url("../images/adobe.png");
-
-}
-
- */
-
-
+/********************* Footer *********************/
 
 footer {
 	height:269px;
