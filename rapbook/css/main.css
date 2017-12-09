@@ -1,4 +1,17 @@
 
+
+
+/********************* SVG ICONS *********************/
+.heart-icon {
+  fill: red;
+}
+
+.heart-icon:hover {
+  fill: blue;
+}
+
+
+
 /************** BETA BUTTON ***************/
 
 #beta{
@@ -62,3 +75,18 @@
 #beta-grouper {
   width: 75%;
   margin-left: 5%; }
+
+
+
+
+  /********************* Footer *********************/
+
+  footer {
+  	height:200px;
+  	background-color:#FAFAFA;
+  	margin-top:100px;
+  	width:100%;
+  	display:flex;
+  	justify-content: center;
+  	align-items: center;
+  }
