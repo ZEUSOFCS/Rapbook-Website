@@ -421,7 +421,7 @@ li {
 
 
 .company:nth-child(5) {
-	background-image:url("../images/amazon.png");
+	background-image:url("../images/swifty-guy.png");
 	background-size:224px;
 	background-size: cover; /* NOTE: image size */
 	display:grid;
