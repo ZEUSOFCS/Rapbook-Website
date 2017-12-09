@@ -13,7 +13,8 @@ transform: matrix(0.95, 0, 0, 0.95, 0, 0);
 /* ++++++++++++++++++++++++++++++++++++++++ */
 
 #download {
-  position: fixed;
+  position: absolute;
+  margin-left: 90%;
   right: 20px;
   top: 20px;
   z-index: 100;
