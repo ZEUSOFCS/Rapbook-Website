@@ -82,11 +82,11 @@
   /********************* Footer *********************/
 
   footer {
+    padding-top: 4cm;
   	height:200px;
   	background-color:#FAFAFA;
   	margin-top:100px;
   	width:100%;
-  	display:flex;
   	justify-content: center;
   	align-items: center;
   }
