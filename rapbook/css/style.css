@@ -371,7 +371,7 @@ li {
 .card-holder {
 	display: grid;
 	grid-template-columns: 3fr 3fr;
-	grid-auto-rows: 200px; /* NOTE: hieght of card */
+	grid-auto-rows: 220px; /* NOTE: hieght of card */
 	grid-gap: 2rem; /* NOTE: space b/t card */
 	padding-left: 5%;
 	padding-right: 5%;
@@ -380,7 +380,7 @@ li {
 
 .company {
   border-radius: 5px;
-  background-size:cover;  /* NOTE:  size of img cover  */
+  background-size:cover;;  /* NOTE:  size of img cover  */
   background-repeat:no-repeat;
   background-position: center;
   transition: all 0.3s ease-out;
@@ -389,7 +389,8 @@ li {
 
 .company:nth-child(1) {
 	background-image:url("../images/rapbook.png"); /* NOTE: cover image */
-	background-size:225px; /* NOTE: image size */
+	background-size:224px;
+	background-size: cover; /* NOTE: image size */
 	display:grid;
 }
 
@@ -411,7 +412,9 @@ li {
 
 }
 
+/* NOTE: Working Progress */
 
+/*
 .company:nth-child(5) {
 	background-color:red;
 	background-image:url("../images/amazon.png");
@@ -437,7 +440,7 @@ li {
 
 }
 
-
+ */
 
 
 
