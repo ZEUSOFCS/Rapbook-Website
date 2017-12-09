@@ -36,7 +36,7 @@ a:visited {
 .google-resized {
 	margin-top:72px;
 	height:60px;
-	width:60px; 
+	width:60px;
 }
 
 .apple-resized {
@@ -212,7 +212,7 @@ a:visited {
 }
 
 .apply-facebook{
-		background-color: #3b5998;
+		background-color: red;
 }
 .apply-google {
 	background-color:#4c90f5
@@ -227,7 +227,7 @@ a:visited {
 }
 
 .apply-amazon {
-	background-color:#ff9900;
+	background-color:red;
 
 }
 
@@ -361,6 +361,8 @@ li {
 }
 
 
+/********************* Cards *********************/
+
 .card-container {
 	margin:auto;
 	max-width:1100px;
@@ -374,12 +376,12 @@ li {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-  
+
 
 .company {
   background-color: #3b5998;
-  border-radius: 10px;
-  background-size:30%;
+  border-radius: 5px;
+  background-size:cover; /* NOTE:  size of img cover  */
   background-repeat:no-repeat;
   background-position: center;
   transition: all 0.3s ease-out;
@@ -387,8 +389,8 @@ li {
 
 
 .company:nth-child(1) {
-	background-image:url("../images/facebook.png");
-	background-size:40px;
+	background-image:url("../images/rapbook.png"); /* NOTE: cover image */
+	background-size:225px; /* NOTE: image size */
 }
 
 .company:nth-child(2) {
@@ -411,7 +413,7 @@ li {
 
 
 .company:nth-child(5) {
-	background-color:#ff9900;
+	background-color:red;
 	background-image:url("../images/amazon.png");
 
 }
@@ -462,7 +464,7 @@ footer {
 @media screen and ( min-width: 613px ) {
 
 
-  
+
 
 .google-cards{
 	width:600px;
@@ -685,7 +687,7 @@ transition: all 0.3s ease-out;
 
 .apply-amazon:hover {
 	 transform: translateY(-10px) scale(1.005) translateZ(0);
-  box-shadow: 0 24px 36px #FFE8C6;
+  box-shadow: 0 24px 36px #ffff;
 }
 
 .apply-intuit:hover {
