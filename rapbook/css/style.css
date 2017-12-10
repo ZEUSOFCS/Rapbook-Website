@@ -485,7 +485,7 @@ li {
 }
 
 .intro2 {
-	margin-top:28%;
+	margin-top:16%;
 }
 
 .companies-title {
@@ -495,7 +495,7 @@ li {
 
 .companies-description{
 	text-align:left;
-	font-size:14px;
+	font-size:20px;
 }
 
 
@@ -511,8 +511,10 @@ hr {
 }
 
 section {
-	padding-top: 10px;
+	padding-top: 0 none;
 }
+
+
 }
 
 
@@ -575,6 +577,19 @@ section {
 .left-nav {
 	font-size:20px;
 }
+
+
+
+/* NOTE:  ADDED */
+hr {
+	margin-top: 2cm;
+      width: 0.5cm;
+}
+
+section {
+	padding-top: 0 none;
+}
+
 
 }
 
