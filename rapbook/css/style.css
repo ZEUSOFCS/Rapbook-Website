@@ -325,7 +325,7 @@ li {
 }
 
 .intro h3 {
-	font-size:48px;
+	font-size:52px;
 	color:#4B4B4B;
 }
 
@@ -647,6 +647,18 @@ section {
   	left: 0;
   	z-index:-50;
   	cursor:default;
+}
+
+.intro p {
+	font-size:32px;
+	width:310px;
+	padding-left:150px;
+}
+
+.intro p {
+	font-size:32px;
+	width:310px;
+	padding-left:150px;
 }
 
 }
