@@ -465,7 +465,6 @@ li {
 
 
 .intro {
-	float:right;
 	margin-bottom:0px;
 	margin-top:28%;
 }
@@ -498,6 +497,19 @@ li {
 
 .left-nav {
 	font-size:20px;
+}
+
+
+/* NOTE:  new changes */
+.phone-container {
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+section {
+
+	padding-top: 1px;
 }
 
 }
@@ -528,9 +540,7 @@ li {
 
 
 .intro {
-	float:right;
 	margin-bottom:0px;
-	margin-top:28%;
 }
 
 .intro h4 {
@@ -562,6 +572,7 @@ li {
 .left-nav {
 	font-size:20px;
 }
+
 
 }
 
@@ -754,6 +765,22 @@ transform: matrix(0.95, 0, 0, 0.95, 0, 0);
  transform: translateY(-10px) scale(1.005) translateZ(0);
 		box-shadow: 0 20px 36px 0 rgba(233, 233, 233, 0.5)
 
+}
+
+.intro {
+	width:400px;
+	align-items: left;
+	margin-top:245px;
+}
+
+.intro h3 {
+	padding-left:150px;
+}
+
+.intro p {
+	font-size:32px;
+	width:310px;
+	padding-left:150px;
 }
 
 }
