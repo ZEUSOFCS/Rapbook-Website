@@ -495,7 +495,7 @@ li {
 
 .companies-description{
 	text-align:left;
-	font-size:16px;
+	font-size:14px;
 }
 
 
@@ -510,6 +510,9 @@ hr {
       width: 0.5cm;
 }
 
+section {
+	padding-top: 10px;
+}
 }
 
 
