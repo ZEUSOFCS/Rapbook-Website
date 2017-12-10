@@ -437,7 +437,7 @@ li {
 
 /* Scale boxes */
 
-
+/* FIXME:  */
 
 /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
@@ -465,6 +465,76 @@ li {
 
 
 .intro {
+	margin-bottom:0px;
+	margin-top:20%;
+}
+
+.intro h4 {
+	text-align:left;
+}
+
+.intro h3 {
+	font-size:40px;
+}
+
+.intro p{
+	text-align:left;
+}
+
+.intro2 {
+	margin-top:28%;
+}
+
+.companies-title {
+	font-size:24px;
+	text-align:left;
+}
+
+.companies-description{
+	text-align:left;
+	font-size:16px;
+}
+
+
+
+.left-nav {
+	font-size:20px;
+}
+
+/* NOTE:  ADDED */
+hr {
+      width: 0.5cm;
+}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.card-holder {
+		display: grid;
+		grid-template-columns: 2fr 2fr 2fr;
+		grid-auto-rows: 200px; /* NOTE: hieght of card */
+		grid-gap: 2rem; /* NOTE: space b/t card */
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+.google-cards{
+	width:600px;
+}
+.google1 {
+	width:149px;
+}
+
+.google1:nth-child(3n){
+	margin-top:0px;
+	margin-left:16px;
+}
+
+
+.intro {
+	float:right;
 	margin-bottom:0px;
 	margin-top:28%;
 }
@@ -498,81 +568,6 @@ li {
 .left-nav {
 	font-size:20px;
 }
-
-
-/* NOTE:  new changes */
-.phone-container {
-	display:flex;
-	justify-content: center;
-	align-items:center;
-}
-
-section {
-
-	padding-top: 1px;
-}
-
-}
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-	.card-holder {
-		display: grid;
-		grid-template-columns: 2fr 2fr 2fr;
-		grid-auto-rows: 200px; /* NOTE: hieght of card */
-		grid-gap: 2rem; /* NOTE: space b/t card */
-		padding-left: 2%;
-		padding-right: 2%;
-	}
-
-.google-cards{
-	width:600px;
-}
-.google1 {
-	width:149px;
-}
-
-.google1:nth-child(3n){
-	margin-top:0px;
-	margin-left:16px;
-}
-
-
-.intro {
-	margin-bottom:0px;
-}
-
-.intro h4 {
-	text-align:left;
-}
-
-.intro p{
-	text-align:left;
-}
-
-.intro2 {
-	margin-top:25%;
-
-
-}
-
-.companies-title {
-	font-size:24px;
-	text-align:left;
-}
-
-.companies-description{
-	text-align:left;
-	font-size:16px;
-}
-
-
-
-.left-nav {
-	font-size:20px;
-}
-
 
 }
 
