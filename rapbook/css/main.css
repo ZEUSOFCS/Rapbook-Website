@@ -3,11 +3,6 @@
 
 /************** HR ***************/
 hr {
-      border-color: rgba(0,0,0,.1);
-      width: 2.5cm;
-}
-
-hr {
     display: block;
     unicode-bidi: isolate;
     -webkit-margin-before: 0.5em;
@@ -17,6 +12,9 @@ hr {
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
+
+    border-color: rgba(0,0,0,.1);
+    width: 2.5cm;
 }
 
 

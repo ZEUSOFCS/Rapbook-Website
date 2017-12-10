@@ -474,11 +474,12 @@ li {
 }
 
 .intro h3 {
-	font-size:40px;
+	font-size:36px;
 }
 
 .intro p{
-	text-align:left;
+	font-size:16px;
+	width: 100%;
 }
 
 .intro2 {
@@ -503,6 +504,7 @@ li {
 
 /* NOTE:  ADDED */
 hr {
+	margin-top: 2cm;
       width: 0.5cm;
 }
 
