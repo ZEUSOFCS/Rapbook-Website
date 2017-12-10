@@ -496,6 +496,7 @@ li {
 .companies-description{
 	text-align:left;
 	font-size:20px;
+
 }
 
 
@@ -541,11 +542,10 @@ section {
 	margin-left:16px;
 }
 
-
 .intro {
-	float:right;
 	margin-bottom:0px;
 	margin-top:28%;
+	margin-left: 55%;
 }
 
 .intro h4 {
@@ -553,13 +553,13 @@ section {
 }
 
 .intro p{
+	font-size:32px;
 	text-align:left;
+
 }
 
 .intro2 {
 	margin-top:25%;
-
-
 }
 
 .companies-title {
@@ -571,8 +571,6 @@ section {
 	text-align:left;
 	font-size:16px;
 }
-
-
 
 .left-nav {
 	font-size:20px;
@@ -650,7 +648,7 @@ section {
 }
 
 .intro p {
-	font-size:32px;
+	font-size:36px;
 	width:310px;
 	padding-left:150px;
 }
