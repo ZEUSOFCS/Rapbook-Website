@@ -534,13 +534,13 @@ section {
 	box-shadow: 0 14px 26px rgba(0,0,0,0.11);
 }
 
-/*  card  pressed effect */
-.company:nth-child(1):active{
-	-webkit-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-moz-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-ms-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-o-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+/*  card hover effect */
+.company:nth-child(1):hover{
+	-webkit-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-moz-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-ms-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-o-transform: translateY(-10px) scale(1.005) translateZ(0);
+	transform: translateY(-10px) scale(1.005) translateZ(0);
 
 	box-shadow: 0 14px 26px rgba(0,0,0,0.15);
 }
@@ -551,13 +551,13 @@ section {
 	box-shadow: 0 14px 26px rgba(0,0,0,0.11);
 }
 
-/*  card  pressed effect *//
-.company:nth-child(2):active{
-	-webkit-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-moz-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-ms-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-o-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+/*  card hover effect */
+.company:nth-child(2):hover{
+	-webkit-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-moz-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-ms-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-o-transform: translateY(-10px) scale(1.005) translateZ(0);
+	transform: translateY(-10px) scale(1.005) translateZ(0);
 
 	box-shadow: 0 14px 26px rgba(0,0,0,0.15);
 }
@@ -568,13 +568,13 @@ section {
 	box-shadow: 0 14px 26px rgba(0,0,0,0.11);
 }
 
-/*  card  pressed effect */
-.company:nth-child(3):active{
-	-webkit-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-moz-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-ms-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-o-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+/*  card hover effect */
+.company:nth-child(3):hover{
+	-webkit-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-moz-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-ms-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-o-transform: translateY(-10px) scale(1.005) translateZ(0);
+	transform: translateY(-10px) scale(1.005) translateZ(0);
 
 	box-shadow: 0 14px 26px rgba(0,0,0,0.15);
 }
@@ -585,13 +585,13 @@ section {
 	box-shadow: 0 14px 26px rgba(0,0,0,0.11);
 }
 
-/*  card  pressed effect */
-.company:nth-child(4):active{
-	-webkit-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-moz-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-ms-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	-o-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
-	transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+/*  card hover effect */
+.company:nth-child(4):hover{
+	-webkit-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-moz-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-ms-transform: translateY(-10px) scale(1.005) translateZ(0);
+	-o-transform: translateY(-10px) scale(1.005) translateZ(0);
+	transform: translateY(-10px) scale(1.005) translateZ(0);
 
 	box-shadow: 0 14px 26px rgba(0,0,0,0.15);
 }
@@ -602,7 +602,26 @@ section {
 	box-shadow: 0 14px 26px rgba(0,0,0,0.11);
 }
 
-/*  card  pressed effect */
+/*  card hover effect */
+.company:nth-child(5):hover{
+-webkit-transform: translateY(-10px) scale(1.005) translateZ(0);
+-moz-transform: translateY(-10px) scale(1.005) translateZ(0);
+-ms-transform: translateY(-10px) scale(1.005) translateZ(0);
+-o-transform: translateY(-10px) scale(1.005) translateZ(0);
+transform: translateY(-10px) scale(1.005) translateZ(0);
+
+box-shadow: 0 14px 26px rgba(0,0,0,0.15);
+}
+
+/*  card  hover effect */
+.company:nth-child(1):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 14px 26px rgba(0,0,0,0.11);
+}
+
+
+/* NOTE: DISABLED */
+/*  card  pressed effect
 .company:nth-child(5):active{
 -webkit-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
 -moz-transform: matrix(0.95, 0, 0, 0.95, 0, 0);
@@ -612,12 +631,6 @@ transform: matrix(0.95, 0, 0, 0.95, 0, 0);
 
 box-shadow: 0 14px 26px rgba(0,0,0,0.15);
 }
-
-
-
-/* NOTE: DISABLED */
-/*  card  pressed effect */
-/*
 .company:nth-child(1):active{
 transform: matrix(0.95, 0, 0, 0.95, 0, 0);
 }
