@@ -890,6 +890,7 @@ transform: matrix(0.95, 0, 0, 0.95, 0, 0);
 	width:310px;
 	padding-left:150px;
 	font-family:lato;
+	font-weight: 300;
 }
 
 }
