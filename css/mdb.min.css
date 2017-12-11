@@ -8590,16 +8590,16 @@ body.scrollable {
   height: 100%
 }
 
-.intro {
+/*.intro {
   min-height: 1000px;
   position: relative
-}
+}*/
 
-@media (max-width:768px) {
+/*@media (max-width:768px) {
   .intro {
     min-height: 1000px
   }
-}
+}*/
 
 .intro-video video {
   top: 50%;
