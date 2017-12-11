@@ -1,3 +1,33 @@
+/************** CUSTOMIZE COMPONENTS ***************/
+
+textarea {
+  outline: 0 none;
+  width: 90%;
+  height: 15cm;
+  padding: 5px;
+  border: 1.3px solid #dddddd;
+  text-indent: 10px;
+  font-size: 22px background-color: transparent;
+  /* remove resize handle */
+  resize: none;
+  /* remove the blue glow */
+}
+
+textarea:focus {
+  border: 1.3px solid #dddddd;
+}
+
+/************** Alightments ***************/
+
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+#inner {
+  display: inline-block;
+}
+
 /************** HR ***************/
 
 hr {
