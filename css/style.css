@@ -380,7 +380,7 @@ li {
 }
 
 .company:nth-child(1) {
-  background-image: url("../images/rapbook.png");
+  background-image: url("../images/21sav.png");
   /* NOTE: cover image */
   background-size: 224px;
   background-size: cover;

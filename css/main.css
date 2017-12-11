@@ -88,6 +88,14 @@ textarea:focus {
   }
 }
 
+/************** Frame Resize ***************/
+
+.cover-resized {
+  width: 300px;
+  height: 300px;
+  margin-top: 72px;
+}
+
 /************** Alightments ***************/
 
 #outer {
