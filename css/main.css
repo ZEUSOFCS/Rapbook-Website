@@ -73,7 +73,7 @@ textarea:focus {
 .lyric-title {
   font-size: 26px;
   font-weight: 400;
-  color: #E895A0;
+  color: #f2f2f2;
   text-align: left;
   letter-spacing: 1.5px;
   margin: 0 0 0.05% 7%;
@@ -81,7 +81,7 @@ textarea:focus {
 
 .lyric-content {
   font-size: 18px;
-  letter-spacing: .5px;
+  letter-spacing: .4px;
   color: #586E8A;
   margin: 0% 7% 2% 7%;
   text-align: justify;
@@ -103,7 +103,7 @@ textarea:focus {
 .verse-title {
   font-weight: 400;
   margin-top: 10%;
-  margin-bottom: 10%;
+  padding-bottom: 30px;
 }
 
 .artist-title {
