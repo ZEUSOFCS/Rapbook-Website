@@ -8,6 +8,10 @@
 
 /************** CUSTOMIZE COMPONENTS ***************/
 
+div {
+  margin-bottom: 0 !important;
+}
+
 /* textarea */
 
 textarea {
