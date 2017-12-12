@@ -8,10 +8,6 @@
 
 /************** CUSTOMIZE COMPONENTS ***************/
 
-div {
-  margin-bottom: 0 !important;
-}
-
 /* textarea */
 
 textarea {
@@ -106,7 +102,7 @@ textarea:focus {
 
 .verse-title {
   font-weight: 400;
-  margin-top: 5%;
+  margin-top: 3.5%;
 }
 
 .artist-title {
