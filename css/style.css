@@ -55,7 +55,7 @@ a:visited {
 }
 
 .modal-window>div {
-  max-width: 934px;
+  max-width: 834px;
   margin: auto;
   max-height: 100vh;
   overflow-y: auto;

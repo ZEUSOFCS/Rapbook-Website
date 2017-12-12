@@ -66,11 +66,31 @@ textarea:focus {
   border-radius: 7px;
   box-shadow: 0 14px 26px rgba(0, 0, 0, 0.11);
   /* resize image frame */
-  /*  width: 225px;
-  height: 225px;*/
-  /* resize image frame  bigger*/
-  width: 400px;
-  height: 400px;
+  width: 225px;
+  height: 225px;
+}
+
+.lyric-title {
+  font-size: 26px;
+  font-weight: 400;
+  color: #E895A0;
+  text-align: left;
+  letter-spacing: 1.5px;
+  margin: 0 0 0.05% 7%;
+}
+
+.lyric-content {
+  font-size: 18px;
+  letter-spacing: .5px;
+  color: #586E8A;
+  margin: 0% 7% 2% 7%;
+  text-align: justify;
+}
+
+.lorem-ipsum-dolor-si {
+  width: 322.2px;
+  height: 146px;
+  background-color: #586e8a;
 }
 
 .song-title {
@@ -80,12 +100,22 @@ textarea:focus {
   font-weight: 600;
 }
 
+.verse-title {
+  font-weight: 400;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .artist-title {
   margin-left: 3%;
   margin-top: 2%;
   font-size: 20px;
   font-weight: 400;
   color: #b2b2b2;
+}
+
+.modal-footer {
+  margin-bottom: 10%;
 }
 
 /************** Alightments ***************/
