@@ -6140,10 +6140,7 @@ select.selectpicker {
     background-color: #999;
 }
 
-html * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+
 
 h1,
 .h1 {
@@ -8260,10 +8257,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.btn-rose.active {
     font-size: 11px;
 }
 
-body {
-    background-color: #EEEEEE;
-    color: #3C4858;
-}
+
 
 body.inverse {
     background: #333333;
@@ -8292,21 +8286,7 @@ blockquote p {
     background: #FFFFFF;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4 {
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 300;
-    line-height: 1.5em;
-}
+
 
 .serif-font {
     font-family: "Roboto Slab", "Times New Roman", serif;
@@ -12042,9 +12022,7 @@ fieldset[disabled] .navbar .btn-link:focus {
     min-width: 130px;
 }
 
-footer {
-    padding: 15px 0;
-}
+
 
 footer ul {
     margin-bottom: 0;
