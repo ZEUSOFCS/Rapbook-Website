@@ -35,7 +35,21 @@ textarea:focus {
 
 /* button */
 
-.btn {}
+button {}
+
+.btn, .navbar .navbar-nav>li>a.btn {
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  padding: 8px 30px;
+  margin: 10px 1px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  will-change: box-shadow, transform;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .btn-save {
   &:hover {
