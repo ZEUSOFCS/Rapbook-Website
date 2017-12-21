@@ -5,16 +5,13 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 a:hover {
   color: #4c4c4c !important;
 }
 
-a:visited {
-  color: black !important;
-}
+a:visited {}
 
 .modal-window {
   position: fixed;
